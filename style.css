@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.section {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    width: calc(50% - 20px);
+    background-color: #fff;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    border: 1px solid #eee;
+    background-color: #f4f4f4;
+    gap: 2px;
+    padding: 10px;
+}
+
+.box div {
+    width: 25px;
+    height: 25px;
+    background-color: #e74c3c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+}
+
+.align-items {
+    height: 120px;
+}
+
+.align-items.flex-start {
+    align-items: flex-start;
+}
+
+.align-items.center {
+    align-items: center;
+}
+
+.align-items.flex-end {
+    align-items: flex-end;
+}
+
+.align-items.stretch {
+    align-items: stretch;
+}
+
+.justify-content {
+    height: 80px;
+}
+
+.justify-content.flex-start {
+    justify-content: flex-start;
+}
+
+.justify-content.center {
+    justify-content: center;
+}
+
+.justify-content.flex-end {
+    justify-content: flex-end;
+}
+
+.justify-content.space-between {
+    justify-content: space-between;
+}
+
+.justify-content.space-around {
+    justify-content: space-around;
+}
+
+.justify-content.space-evenly {
+    justify-content: space-evenly;
+}
+
+.align-content {
+    height: 120px;
+    flex-wrap: wrap;
+}
+
+.align-content.flex-start {
+    align-content: flex-start;
+}
+
+.align-content.center {
+    align-content: center;
+}
+
+.align-content.flex-end {
+    align-content: flex-end;
+}
+
+.align-content.stretch {
+    align-content: stretch;
+}
+
+.align-content.space-between {
+    align-content: space-between;
+}
+
+.align-content.space-around {
+    align-content: space-around;
+}
